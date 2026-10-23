@@ -1,0 +1,5 @@
+first_basket,customers,median_total_orders,share_reaching_10_orders
+1-5 items,63775,9.0,0.486
+6-10 items,63537,10.0,0.5253
+11-20 items,59749,11.0,0.5413
+21+ items,19148,11.0,0.5598

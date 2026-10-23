@@ -1,0 +1,19 @@
+name: SQL tests
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run every SQL query on a hand-checked dataset
+        run: pytest -q
+      - name: Full pipeline on generated sample data
+        run: python scripts/make_sample_data.py && python run_analysis.py --reload --min-count 50
