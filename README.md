@@ -20,6 +20,8 @@ with stronger retention.
 
 **From findings to action:** [growth playbook with 4 experiment designs](docs/growth_playbook.md)
 
+**Applied to FirstClub:** [customer-experience teardown](docs/firstclub_teardown.md) · [PRD: fix quality issues in 30 seconds](docs/prd_report_a_problem.md)
+
 ## The questions and the SQL
 | # | Question | File | Techniques |
 | --- | --- | --- | --- |
