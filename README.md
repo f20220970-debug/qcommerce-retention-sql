@@ -18,6 +18,8 @@ with stronger retention.
 - Width and retention move together: customers whose first order spanned 7+ departments reached 10 orders more often (54% vs 47% for one department). This is correlation, not proof; the test would be a first-order nudge to add an item from a new category, against a control group.
 - Habit products are milk: the top five reordered products are all milk (85-86% reorder rate).
 
+**From findings to action:** [growth playbook with 4 experiment designs](docs/growth_playbook.md)
+
 ## The questions and the SQL
 | # | Question | File | Techniques |
 | --- | --- | --- | --- |
